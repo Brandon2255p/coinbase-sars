@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "calc.py",
+            "console": "integratedTerminal",
+            "args": [
+                "cg",
+                "Coinbase-5ff60a82eec6ad16953c79ac-TransactionsHistoryReport-2021-09-29-07_12_29.csv",
+                "--end_date=2021-02-28"
+            ]
+        }
+    ]
+}
